@@ -1,28 +1,26 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-app-bar color="deep-purple accent-4" dense dark app>
+      <v-toolbar-title>
+        <v-btn text large @click="$router.push('/')">
+          <span>TAKEROID</span>
+          <span>PORTFOLIO</span>
+        </v-btn>
+      </v-toolbar-title>
+
+      <v-spacer></v-spacer>
+      <v-btn text large @click="$router.push('/skill')">
+        <span>SKILL</span>
+      </v-btn>
+      <v-btn text large @click="$router.push('/works')">
+        <span>WORKS</span>
+      </v-btn>
+    </v-app-bar>
+    <v-content>
+      <router-view></router-view>
+    </v-content>
+  </v-app>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
 </style>
