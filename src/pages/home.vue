@@ -4,7 +4,7 @@
       <v-layout justify-space-around wrap>
         <v-flex xs12 class="text-center mt-10">
           <v-avatar max-height="300" max-width="300" min-height="100" min-width="100" size="300">
-            <img src="../assets/saratoga.png" alt="Takeroid" />
+            <img src="../assets/Screenshot_20191213-020736(1).png" alt="Takeroid" />
           </v-avatar>
         </v-flex>
         <v-flex xs12 class="mb-5">
