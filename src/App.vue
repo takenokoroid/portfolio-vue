@@ -9,7 +9,7 @@
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
-      <v-btn text large @click="$router.push('/skill')">
+      <v-btn text large @click="$router.push('/skills')">
         <span>SKILL</span>
       </v-btn>
       <v-btn text large @click="$router.push('/works')">
