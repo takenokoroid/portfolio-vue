@@ -24,10 +24,9 @@
 
                 <v-card-subtitle v-text="item.subtitle"></v-card-subtitle>
               </div>
-
-              <v-avatar class="ma-3" size="125" tile>
-                <v-img :src="item.src"></v-img>
-              </v-avatar>
+              <v-card color="#FFFFFF" class="ma-1">
+                <v-icon size="125" color="grey darken-3">{{item.src}}</v-icon>
+              </v-card>
             </div>
           </v-card>
         </v-col>
@@ -42,14 +41,14 @@ export default {
     items: [
       {
         color: "#1F7087",
-        src: require("../assets/logo.png"),
+        src: "mdi-vuejs",
         title: "Vue.js",
         subtitle: "基本はこれ使ってます。",
         link: "https://jp.vuejs.org/v2/guide/"
       },
       {
         color: "#36B1C9",
-        src: require("../assets/go-logo-blue.svg"),
+        src: "mdi-language-go",
         title: "Golang",
         subtitle: "ただいま勉強中",
         link: "https://golang.org/doc/"
