@@ -21,7 +21,7 @@
         </v-flex>
         <v-flex xl7 lg7 md7 sm7 xs7>
           <p class="text-center">人生一週目</p>
-          <p>フロントエンドエンジニアです。バックエンドもできるようになりたいなー</p>
+          <p>フロントエンドエンジニアです。バックエンドも修行中</p>
         </v-flex>
       </v-layout>
     </v-container>
